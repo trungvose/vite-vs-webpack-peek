@@ -1,0 +1,13 @@
+{
+  "name": "parse",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "parse": "node parse.mjs greet.js && node parse.mjs Greet.tsx",
+    "roundtrip": "node roundtrip.mjs Greet.tsx"
+  },
+  "dependencies": {
+    "esrap": "^2.4.0",
+    "oxc-parser": "^0.155.0"
+  }
+}
