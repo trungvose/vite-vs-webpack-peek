@@ -32,5 +32,7 @@ module.exports = {
   devServer: {
     port: 3000,
     hot: true,
+    // StackBlitz previews on a *.webcontainer.io host, which webpack-dev-server blocks by default
+    allowedHosts: 'all',
   },
 }
