@@ -1,0 +1,11 @@
+{
+  "name": "esm",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "serve . -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}

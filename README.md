@@ -4,6 +4,7 @@ Code for my post [Notes from Evan You talk at CityJS Singapore 2026](https://tru
 
 | Folder | What it is | Open online |
 | --- | --- | --- |
+| [`esm`](./esm) | Plain `index.html` with `<script type="module">`, no bundler, the browser fetches `greet.js` itself | [StackBlitz](https://stackblitz.com/github/trungvose/vite-vs-webpack-peek/tree/main/esm) |
 | [`vite`](./vite) | The React + TypeScript app from the Vite template | [StackBlitz](https://stackblitz.com/github/trungvose/vite-vs-webpack-peek/tree/main/vite) |
 | [`webpack`](./webpack) | The same `main.tsx` and `App.tsx`, set up with webpack and Babel | [StackBlitz](https://stackblitz.com/github/trungvose/vite-vs-webpack-peek/tree/main/webpack) |
 | [`parse`](./parse) | Parse `greet.js` and `Greet.tsx` with [oxc-parser](https://oxc.rs/docs/guide/usage/parser.html) and write the AST to JSON | [StackBlitz](https://stackblitz.com/github/trungvose/vite-vs-webpack-peek/tree/main/parse) |
@@ -11,7 +12,7 @@ Code for my post [Notes from Evan You talk at CityJS Singapore 2026](https://tru
 Run locally:
 
 ```bash
-cd vite      # or webpack
+cd vite      # or webpack, or esm
 npm install
 npm run dev
 
